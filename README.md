@@ -10,7 +10,7 @@ Doing so will make it easier to find high quality answers to questions resulting
 # Datasets and Inputs:
 I’ll be using the Quora dataset provided on the Kaggle Competition ( 4,04,351 records) : https://www.kaggle.com/quora/question-pairs-dataset
 
-# • id - the id of a training set question pair – (Numeric) • qid1, qid2 - unique ids of each question (only available in train.csv) – (Numeric) • question1, question2 - the full text of each question – (String) Target Variable: • is_duplicate - the target variable, set to 1 if question1 and question2 have essentially the same meaning, and 0 otherwise. – (Numeric)
+• id - the id of a training set question pair – (Numeric) • qid1, qid2 - unique ids of each question (only available in train.csv) – (Numeric) • question1, question2 - the full text of each question – (String) Target Variable: • is_duplicate - the target variable, set to 1 if question1 and question2 have essentially the same meaning, and 0 otherwise. – (Numeric)
 
 # Environment Used:
 The project will be written in Python 3.5 and the following libraries will be used: • Pandas • Numpy • Scikit-Learn • MatplotLib • XGBoost • Seaborn
